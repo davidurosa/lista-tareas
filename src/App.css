@@ -145,3 +145,55 @@ h1 {
 .edit-icon {
   color: #fff;
 }
+
+
+
+/* ========================dispositivo medianos ================================= */
+
+
+@media screen and ( max-width: 600px){
+
+
+  .todo-app {
+    
+    width: 400px;
+    
+  }
+  .todo-input {
+    
+    width: 220px;
+  ;
+  }
+
+  h1 {
+    margin: 28px 0;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .todo-row p{
+    font-size: 13px;
+  }
+
+}
+
+
+/* ========================dispositivo medianos ================================= */
+
+
+@media screen and ( max-width: 600px){
+
+
+  .todo-app {
+    
+    width: 300px;
+    
+  }
+  .todo-input {
+    
+    width: 120px;
+  ;
+  }
+  
+
+}

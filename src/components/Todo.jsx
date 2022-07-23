@@ -31,7 +31,7 @@ const Todo = ({todos,completeTodo,removeTodo,updateTodo}) => {
     <div className={todo.isConplete ?'todo-row complete':'todo-row'} key={index}>
 
         <div key={todo.id} onClick={()=>completeTodo(todo.id)}>
-            {todo.text}
+           <p>{todo.text}</p> 
         </div>
         <div className='icons'>
             <RiDeleteBin2Fill className='delete-icon' onClick={() => removeTodo(todo.id)}/>
